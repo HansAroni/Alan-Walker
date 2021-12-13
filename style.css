@@ -26,6 +26,8 @@ body{
     transform: translateX(20px);
     transform: translateY(10px);
     grid-column: 2 / 3;
+    /* cambios nueva rama */
+    transform: skew(1,2);
    
        /* Animación ajustes, tiempo,etc */
        animation-name: Logo;
