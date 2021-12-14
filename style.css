@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../grids-full-responsive/alanwalker4.jpg);
+    height: 100vh;
  
 }
 .navbar{
@@ -30,40 +31,18 @@ body{
     transform: skew(1,2);
     transform: translateY(10px);
 
-       /* Animación ajustes, tiempo,etc */
-       animation-name: Logo;
-       animation-iteration-count: initial;
-       animation-timing-function: ease-in;
-       animation-duration: 3s;
-       animation-delay: 3s;
+
    } 
    
-   /* Keyframe de determinacion de efectos */
    
-   @keyframes Logo {
-       0%{
-           width: 80px;
-       }
-       10%{
-           background-color: brown;
-           width: 100px;
-           border: 5px solid black;
-       }
-       50%{
-           background-color: coral;
-           height: 120px;
-           border-radius: 35px;
-       }
-       75%{
-           background-color: aqua;
-           height: 80px;
-       }
-   }
 
 .navbar .menu{
     grid-column: 3 / 5;
     display: flex;
     justify-content: space-around;
+    /* cambio gradient nueva rama */
+    background-image: linear-gradient(to left, black, rgb(151, 187, 235));
+    color: rgb(black, white, blue);
 }
 .navbar .menu li{
     list-style: none;
